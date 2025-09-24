@@ -11,7 +11,7 @@
     <script>
         const cognitoDomain = 'https://ap-southeast-1mibdnzq4e.auth.ap-southeast-1.amazoncognito.com/';
         const appClientId = '0oaqbqmotix099HEc1d7';
-        const redirectUri = 'https://captive-portal-2025.s3.ap-southeast-1.amazonaws.com/index.html';
+        const redirectUri = 'http://captive-portal-2025.s3-website-ap-southeast-1.amazonaws.com/';
 
         function redirectToCognito(){
             const url = `${cognitoDomain}/login?client_id=${appClientId}&response_type=code&redirect_uri=${redirectUri}&scope=openid`;
